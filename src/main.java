@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 
 public class main {
     public static void main(String[] args) {
-        System.out.println("задание 1");
+
         int[] i1 = {1,2,3};
         float[] r = {1.57f,7.654f,9.986f};
         int[] m = new int[4];
@@ -18,6 +18,19 @@ public class main {
         for (int i = 0; i < m.length; i++) {
             System.out.print(m[i] + ", ");
         }
+
+
+        System.out.println("задание 3");
+        for (int i = i1.length - 1; i >= 0; i--) {
+            System.out.println(i1[i] + ", ");
+        }
+        for (int i = r.length-1; i >= 0; i--) {
+            System.out.println(r[i] + ", ");
+        }
+        for (int i = m.length-1; i >= 0; i--) {
+            System.out.println(m[i] + ", ");
+        }
+
     }
 
 }
