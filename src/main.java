@@ -31,6 +31,15 @@ public class main {
             System.out.println(m[i] + ", ");
         }
 
+        System.out.println("4 задание");
+        for (int i = 0; i < i1.length; i++) {
+            if (i1[i] % 2 != 0) {
+                i1[i] += 1;
+            }
+            System.out.println(i1[i]);
+
+        }
+
     }
 
 }
